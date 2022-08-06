@@ -1,0 +1,1150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+
+/* color:#a68053; */
+
+
+#responsive-monitor{
+    display: none;
+}
+
+h1{
+    color:#a68053;
+}
+h2{
+    color:#a68053;
+}
+h3{
+    color:#a68053;
+}
+i{
+    color:#a68053;
+}
+
+li{
+    list-style: none;
+}
+
+
+/* ----------------------------------------------------------- */
+
+
+.hero{
+    background: url(./imagenees/hero.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    height: 1200px;
+    background-position: 50% 30%;
+}
+
+
+
+.hero .container-hero{
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+
+.hero h1{
+    font-size: 40px;
+}
+.hero p{
+    margin-top: 20px;
+    line-height: 30px;
+    color: gray;
+    font-size: 3vh;
+    width: 60%;
+}
+
+.hero .enlaces{
+    margin-top: 30px;
+}
+.hero .enlaces a{
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+/* -------------------------------------------------- */
+
+.hero-parte-dos div{
+   
+    margin-top: 30px;
+    text-align: center;
+    background-color: #fff;
+    margin: 30px 20px;
+    padding: 0px 20px;
+    height: 240px;
+}
+
+.hero-parte-dos i{
+    font-size: 50px;
+    margin-top: 10px;
+}
+.hero-parte-dos h3{
+    margin-top: 30px;
+}
+.hero-parte-dos p{
+    width: 100%;
+    padding: 0px 50px;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+/* ------------------------------------------------------------- */
+
+
+.container-uno{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.container-uno .caja-1{
+    background-color: #b0d5ea;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+}
+
+.container-uno .caja-1 h2{
+    color: #fff;
+    margin-left: 10px;
+}
+
+.img-container-Uno{
+    background: url(./imagenees/imagen\ container1.jpeg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    vertical-align: middle;
+    height: 200px;
+    
+}
+
+
+.container-uno .parrafo p{
+    margin: 50px 10px;
+    line-height: 30px;
+    color: #333;
+    margin-left: 30px;
+}
+
+/* --------------------------------------------------------- */
+
+
+#la-compañía{
+    background: url(./imagenees/ingeniero.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: 35% 50%;
+    background-size: cover;
+    vertical-align: middle;
+    
+}
+
+#la-compañía div{
+    padding-top: 50px;
+    width: 200px;
+}
+.container-laCompañia{
+    position: relative;
+    top: 50px;
+    left: 50%;
+}
+
+.container-laCompañia h4{
+    line-height: 30px;
+    font-weight: 100;
+    color: #666;
+    font-size: 3.3vh;
+}
+.container-laCompañia h2{
+    font-weight: 800;
+    font-size: 3.5vh;
+    margin-top: 20px;
+}
+.container-laCompañia p{
+    line-height: 30px;  
+    margin-top: 20px; 
+}
+
+.container-laCompañia button{
+    background-color: #000;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 10%;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+/* ------------------------------------------------------------------ */
+
+
+.container-dos{
+    margin:50px 60px ;
+}
+
+.img-containerDos{
+    background: url(./imagenees/edif3.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    height: 300px;
+}
+
+.container-dos p{
+    margin-left: 30px;
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+.container-dos .caja-2{
+    background-color: #b0d5ea;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+}
+.caja-2 h2{
+    color: #fff;
+    margin-left: 10px;
+}
+/* --------------------------------------------------------- */
+
+
+#fondo-edif{
+    background: url(./imagenees/img-fondo-con-nueve.jpeg);
+    object-fit:cover ;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    height: 1570px;
+    padding-top: 100px;
+}
+
+#fondo-edif div{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    margin-left:60px ;
+    margin-right: 60px;
+    margin-top: 10px;
+    
+}
+
+
+#fondo-edif img{
+    height: 450px;
+    object-fit: cover;
+}
+
+#fondo-edif img:hover{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: all 500ms ease;
+}
+
+
+/* ---------------------------------------------- */
+
+#container-tres{
+margin: 10px 60px;
+}
+
+#container-tres h2{
+    background-color: #b0d5ea;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+}
+
+#container-tres h2{
+    color: #fff;
+    padding-left: 10px;
+}
+
+.caja-3{
+    background: url(./imagenees/junta-arquitectos.jpg);
+    object-fit: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    height: 300px;
+
+}
+
+#container-tres p{
+    line-height: 30px;
+
+}
+
+/* -------------------------------------------------------- */
+
+.diseño-arquitectura{
+    background: url(./imagenees/diseño-arquitectura.jpg);
+    object-fit: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+
+
+.diseño-arquitectura div{
+    padding-left: 80px;  
+    padding-right: 50px;  
+    padding-top: 200px;
+}
+
+.diseño-arquitectura h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 2px 2px 8px rgb(0 0 0 / 40%);
+}
+
+.diseño-arquitectura p{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    margin-top:70px ;
+}
+
+
+
+.diseño-arquitectura a {
+    color: #fff;
+    padding-left: 20px;
+    font-size: 30px;
+    
+}
+.diseño-arquitectura i{
+    color: #fff;
+    margin-top: 40px;
+}
+
+/* ------------------------------------------------------ */
+
+
+#estilos{
+    background-color: #000;
+    margin: 20px 60px;
+}
+
+.conjunto-estilos{
+    text-align: right;
+}
+.conjunto-estilos h3{
+    font-size: 21px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.conjunto-estilos a{
+    color: #000;
+    font-size: 15px;
+    padding-right: 20px;
+}
+.conjunto-estilos a:hover{
+    color:#a68053;
+}
+.estilo1{
+    background: url(./estilos/estilo-moderno.jpeg);
+    object-fit: cover;
+    background-position: 50% 50%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+}
+
+.estilo2{
+    background: url(./estilos/estilo-cubicos.jpeg);
+    object-fit: cover;
+    background-position: 50% 50%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+}
+
+.estilo3{
+    background: url(./estilos/estilo-minimalista.jpeg);
+    object-fit: cover;
+    background-position: 50% 50%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+}
+
+.estilo4{
+    background: url(./estilos/estilo-fluido.jpeg);
+    object-fit: cover;
+    background-position: 50% 50%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+}
+
+.estilo5{
+    background: url(./estilos/estilo-negocios.jpeg);
+    object-fit: cover;
+    background-position: 50% 50%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+}
+
+.estilo6{
+    background: url(./estilos/estilos-abstractos.jpeg);
+    object-fit: cover;
+    background-position: 50% 50%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+}
+
+
+/* -------------------------------------------------------- */
+
+#final{
+    background: url(./container-completo/img-fondo.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    vertical-align: middle;
+    height: 2000px;
+    padding-top: 50px;
+    
+    
+}
+
+.final-img1{
+    background: url(./container-completo/img1.jpg);
+    object-fit: cover;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    height: 600px;
+    margin: 0px 60px;
+    
+}
+
+.final-img2{
+    background: url(./container-completo/img2.jpg);
+    object-fit: cover;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    height: 300px;
+    margin: 30px 60px;
+}
+
+.final-img3{
+    background: url(./container-completo/img3.jpg);
+    object-fit: cover;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    height: 300px;
+    margin: 50px 60px;
+}
+
+
+/* -------------------------------------------------------- */
+
+.container-estudio{
+    background-color: #fff;
+    margin: 30px 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+.container-estudio h4{
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+
+.container-estudio h2{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.container-estudio p{
+    line-height: 30px;
+    padding-top: 30px;
+    color: #444;
+}
+
+.container-estudio button{
+    color: #000;
+    font-weight: 300;
+    font-weight: 700;
+    padding: 20px 35px;
+    border: 3px solid rgb(135, 236, 236);
+    border-radius:4%;
+    margin-top: 50px;
+    background-color: #fff;
+}
+/* ------------------------------------------------------------ */
+
+footer{
+    background-color: yellow;
+    height: 230px;
+    background-color: #333;
+}
+
+
+footer h2{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+@media (min-width:800px) {
+    
+    #responsive-celular{
+        display: none;
+    }
+
+    #responsive-monitor{
+        display: block;
+    }
+
+    
+   .hero-monitro{
+        background: url(./imagenees/hero.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        width: 100%;
+        height: 1000px;
+        background-position: 50% 30%;
+        
+    }
+
+    .container-hero-monitor{
+        padding: 30px 50px;
+    }
+
+    .container-hero-monitor h1{
+        font-size: 40px;
+    }
+    .container-hero-monitor p{
+        margin-top: 20px;
+        line-height: 30px;
+        color: gray;
+        font-size: 100%;
+        width: 50%;
+    }
+    .container-hero-monitor i{
+        margin-left: 10px;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .hero-parte-dos-monitor{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 35px;
+    }
+    .hero-parte-dos-monitor div{
+        width: 300px;
+        height: 300px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 10px;
+    }
+    .hero-parte-dos-monitor p{
+        color: gray;
+        margin-top: 30px;
+        padding: 0px 30px;
+    }
+    .hero-parte-dos-monitor i{
+        font-size: 50px;
+        margin-top: 30px;
+    
+    }
+    .hero-parte-dos-monitor h3{
+        margin-top: 30px;
+    }
+
+/* ---------------------------------------------------------- */
+
+
+    .container-uno-monitor{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .container-uno-monitor .caja-1{
+        background-color: #b0d5ea;
+        width: 20%;
+        height: 600px;
+        margin-top: 50px;
+        margin-left: 40px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .container-uno-monitor h2{
+        color: #fff;
+        font-size: 200px;
+        padding: 10px;
+    }
+
+    .img-container-Uno{
+        background: url(./imagenees/imagen\ container1.jpeg);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        vertical-align: middle;
+        height: 250px;
+        width: 50%;
+        margin-top:50px ;
+        margin-left: 30px;
+        
+    }
+
+    .img-container-Uno div{
+        margin-top: 280px;
+    }
+    .container-uno-monitor p{
+        width: 100%;
+        line-height: 20px;
+        
+    }
+
+    #la-compañía-monitor{
+        background: url(./imagenees/ingeniero.jpg);
+        background-position: 48% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        width: 100%;
+        height: 700px;
+        margin-top: 50px;
+    }
+
+    .container-laCompañia-monitor div{
+        
+        width: 100%;
+        padding-top: 150px;
+        padding-left: 48%;
+    }
+    .container-ingeniero h2{
+        font-weight: 800;
+        font-size: 200%;
+        margin-top: 20px;
+    }
+    .container-ingeniero h4{
+        line-height: 30px;
+        font-weight: 100;
+        color: #666;
+        font-size: 130%;
+    }
+    .container-ingeniero p{
+        width: 50%;
+        padding-top: 10px;
+        line-height: 30px;
+        font-size: 115%;
+        font-weight:100;
+    }
+    
+    .container-ingeniero button{
+        background-color: black;
+        border-radius: 8%;
+        text-decoration: none;
+        color: #fff;
+        padding: 20px 30px;
+        position: relative;
+        top: 40px;
+
+    }
+
+    /* ------------------------------------------------- */
+
+    .container-dos-monitor{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-containerDos{
+
+        background: url(./imagenees/edif3.jpg);
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        height: 250px;
+        width: 50%;
+        margin-top:50px ;
+        margin-left: 30px;
+    }
+
+    .container-dos-monitor .caja-2{
+        background-color: #b0d5ea;
+        width: 20%;
+        height: 600px;
+        margin-top: 50px;
+        margin-left: 40px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .container-dos-monitor .caja-2 h2{
+        color: #fff;
+        font-size: 200px;
+        padding: 10px;
+        
+    }
+
+
+    .img-containerDos div{
+        position: relative;
+        top: 280px;
+
+    }
+
+    .img-containerDos .parrafo {
+        line-height: 28px;
+    }
+
+/* ------------------------------------------------------ */
+
+    #fondo-edif-monitor{
+        background: url(./imagenees/img-fondo-con-nueve.jpeg);
+        object-fit:cover ;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        width: 100%;
+        height: 1000px;
+        margin-top: 60px;
+        padding-top: 70px;
+        padding-left: 30px;
+         
+    }
+
+
+    #fondo-edif-monitor{
+        display: flex;
+        flex-wrap: wrap;     
+                 
+    }
+
+    #fondo-edif-monitor div{
+        padding-left: 10px; 
+    }
+
+
+
+    .edif1{
+        width: 350px;
+        height: 400px;
+       
+    }
+
+    .edif2{
+        width: 350px;
+        height: 400px;
+    }
+
+
+    .edif3{
+        width: 350px;
+        height: 400px;
+        
+    }
+
+
+    #container-tres-monitor{
+        display: flex;
+    }
+
+    #container-tres-monitor h2{
+        color: #fff;
+        font-size: 200px;
+        padding: 10px;   
+    }
+
+    #container-tres-monitor .caja-2 {
+
+        background-color: #b0d5ea;
+        width: 20%;
+        height: 600px;
+        margin-top: 50px;
+        margin-left: 40px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .img-containerTres{
+        background: url(./imagenees/junta-arquitectos.jpg);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        vertical-align: middle;
+        height: 250px;
+        width: 50%;
+        margin-top:50px ;
+        margin-left: 30px;
+    }
+
+    .img-containerTres .parrafo{
+        position: relative;
+        top: 280px;
+        line-height: 30px;
+    }
+
+
+    .diseño-arquitectura-monitor{
+        background: url(./imagenees/diseño-arquitectura.jpg);
+        object-fit: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px;
+        padding: 30px 40px;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .diseño-arquitectura-monitor{
+        display: flex;
+    }
+
+    .diseño-arquitectura-monitor .diseño-cajaIz{
+        width: 40%;
+        
+    }
+
+    .diseño-arquitectura-monitor .diseño-cajaIz h2{
+        margin-top: 450px;
+        padding-left: 10%;
+        font-size: 300%;
+        color: #fff;
+        text-shadow: 2px 2px 8px rgb(0 0 0 / 40%);
+
+
+    }
+
+
+
+    .diseño-arquitectura-monitor .diseño-cajaDer{
+        width: 50%;
+        padding-top: 450px;
+        margin-left: 40px;
+    }
+
+    .diseño-arquitectura-monitor .diseño-cajaDer p{
+        color: #fff;
+        line-height: 30px;
+        font-weight: 800;
+        text-shadow: 2px 2px 8px rgb(0 0 0 / 40%);
+    }
+    .diseño-arquitectura-monitor .diseño-cajaDer a{
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .diseño-arquitectura-monitor .diseño-cajaDer i{
+        color: #fff;
+        margin-top: 30px;
+    }
+
+
+
+
+    #estilos-monitor{
+        margin: 50px 40px;
+    }
+
+/* ------------------------------------------------------------------------ */
+
+
+    #final-monitor{
+        background: url(./container-completo/img-fondo.jpg);
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        vertical-align: middle;
+        height: 1400px;
+        width: 100%;
+    }
+
+    .container-imagenes{
+        width: 100%;
+        padding-left: 4%;
+        padding-right: 2%;
+        padding-top: 40px;
+        padding-bottom: 40px;    
+
+    }
+
+    .final-img1{
+        width: 40%;
+        height: 650px;
+        
+    
+    }
+
+    .final-img2{
+        position: relative;
+        left: 90%;
+        width: 90%;
+        top: 30px;
+    }
+    
+
+    .final-img3{
+        position: relative;
+        left: 90%;
+        height: 250px;
+        width: 80%;
+        top: 10px;
+    }
+    
+
+    .container-estudio-monitor{
+        background-color: #fff;
+        margin: 10px 60px;
+        width: 89%;
+        height: 400px;
+    }
+
+    .container-estudio-monitor h4{
+        padding-top: 40px;
+        padding-left: 60px;
+        font-size: 100%;
+        font-weight: 100;
+    }
+
+    .container-estudio-monitor h2{
+        font-size: 200%;
+        padding-left: 60px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+
+    }
+
+    .container-estudio-monitor p{
+        color: gray;
+        line-height: 30px;
+        padding-left: 60px;
+        width: 560px;
+    }
+
+    .container-estudio-monitor button{
+        color: #000;
+        font-weight: 700;
+        padding: 20px 35px;
+        border: 3px solid rgb(135, 236, 236);
+        border-radius:4%;
+        margin-top: 50px;
+        background-color: #fff;
+        margin-left: 60px;
+    }
+   
+    
+}
+
+@media (min-width:1000px) {
+
+    .hero-monitro{
+        background: url(./imagenees/hero.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        background-position: 50% 30%;
+        
+    }
+    
+    .container-hero-monitor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10%;
+    }
+
+
+    .hero-parte-dos-monitor{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-uno-monitor{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-dos-monitor{
+        display: flex;
+        justify-content: center;
+    }
+
+    #container-tres-monitor{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* -------------------------------------------------------------------------------------------------- */
+
+
+    #fondo-edif-monitor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        padding-bottom: 50px;
+    }
+    
+   
+
+
+    #fondo-edif-monitor div{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        margin: 30px;
+
+    }
+    #fondo-edif-monitor img:hover{
+        width: 350px;
+        height: 400px;
+        opacity: 0.5;
+        
+    }
+
+
+
+      
+
+/* ---------------------------------------------------------------------------------------- */
+
+    #final-monitor{
+        display: flex;
+        flex-direction: row;
+        height: 800px;
+        padding: 40px;
+    }
+
+    .container-imagenes{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+
+
+    .container-estudio-monitor{
+        width: 50%;
+        height: 93%;
+        
+    }
+
+    .container-estudio-monitor p{
+        width: 90%;
+        
+    }
+
+/* -------------------------------------------------------------------------------- */
+
+    .conjunto-estilos{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+
+    .estilo1{
+        width: 50%;
+        height: 200px;
+    }
+
+    .estilo2{
+        width: 50%;
+        height: 200px;
+    }
+
+    .estilo3{
+        width: 50%;
+        height: 200px;
+    }
+
+    .estilo4{
+        width: 50%;
+        height: 200px;
+    }
+
+    .estilo5{
+        width: 50%;
+        height: 200px;
+    }
+
+    .estilo6{
+        width: 50%;
+        height: 200px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
